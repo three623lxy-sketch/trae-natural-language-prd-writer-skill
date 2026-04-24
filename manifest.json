@@ -1,0 +1,26 @@
+{
+  "name": "prd-writer",
+  "version": "1.0.0",
+  "description": "专业的产品需求文档生成工具",
+  "author": "PRD Writer Team",
+  "main": "skill.md",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "echo 'PRD Writer initialized'"
+  },
+  "keywords": [
+    "prd",
+    "product",
+    "requirement",
+    "document",
+    "generator"
+  ],
+  "license": "MIT",
+  "config": {
+    "templatePath": "references/prd_template.md",
+    "featurePatternsPath": "references/feature_patterns.md",
+    "commonMetricsPath": "references/common_metrics.md",
+    "scriptsPath": "scripts/"
+  }
+}
